@@ -6,46 +6,49 @@ import './Project.css'
 const Project = () => {
     const featuredProjects = [
         {
-            title: "Task Manager Api",
-            description: "Rest Api for managing your task",
-            github: "",
+            title: "Task Manager API",
+            description:
+            "Rest Api for managing (CRUD) your task and also sends an email when a user sign up or logout.",
+            github: "https://github.com/Chiadikaobixo/node-task-manager-api",
             live: "",
-            stack: "MongoDB + Express + React + Node JS",
-            isPackage: true
+            stack: "MongoDB + Express + Node JS",
+            isOnlyCode: true
         },
         {
-            title: "Task Manager Api",
-            description: "Rest Api for managing your task",
-            github: "",
+            title: "E-commerce Api",
+            description:
+            "Rest Api that performs the basic CRUD operation of an ecommerce store with admin access",
+            github: "https://github.com/Chiadikaobixo/Node-Ecommerce-API",
             live: "",
-            stack: "MongoDB + Express + React + Node JS",
-            isPrivate: false
+            stack: "MongoDB + Express + Node JS",
+            isOnlyCode: true
         }
     ]
     const projects = [
         {
-            title: "Task Manager Api",
-            description: "Rest Api for managing your task",
-            github: "",
-            live: "",
-            stack: "MongoDB + Express + React + Node JS",
-            isPrivate: true
-        },
-        {
-            title: "Task Manager Api",
-            description: "Rest Api for managing your task",
-            github: "",
-            live: "",
-            stack: "MongoDB + Express + React + Node JS",
+            title: "Weather Application",
+            description:
+            "This Weather app generates the current weather forecast in your location at the current point in time",
+            github: "https://github.com/Chiadikaobixo/node-weather-app",
+            live: "https://chiadi-weather-application.herokuapp.com/",
+            stack: "Express + HBS+ Node JS",
             isPrivate: false
         },
         {
-            title: "Task Manager Api",
-            description: "Rest Api for managing your task",
-            github: "",
-            live: "",
-            stack: "MongoDB + Express + React + Node JS",
+            title: "Expensify Application",
+            description: "A React application that keeps tract of your expenses",
+            github: "https://github.com/Chiadikaobixo/react-expensify-app",
+            live: "https://react-expensify-app1.herokuapp.com/",
+            stack: "React + Firebase + Express",
             isPrivate: false
+        },
+        {
+            title: "SocialMedia API",
+            description: "A social media rest API that performs the basic CRUD operation",
+            github: "https://github.com/Chiadikaobixo/socialMedia-api",
+            live: "",
+            stack: "MongoDB + Express + Node JS",
+            isOnlyCode: true
         }
     ]
 

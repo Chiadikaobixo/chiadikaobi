@@ -19,7 +19,7 @@ const Resume = () => {
             ],
         },
         {
-            company: "SmartWay Internships",
+            company: "SmartWay Technology",
             position: "Backend Developer [Intern]",
             started: "april 2021",
             ended: "August 2021",
