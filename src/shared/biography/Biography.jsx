@@ -8,9 +8,9 @@ const Biography = ({ active }) => {
     <div className="base_container">
       <div className="hero">
         <div className="intro_box">
-          <h1>Fidelis Ekwunife</h1>
+          <h1>Hello, I'm Chiadikaobi</h1>
           <div className="avi">
-            <img src alt="avatar" />
+            <img src="https://www.linkpicture.com/q/avatar_4.jpg" alt="avatar" />
           </div>
         </div>
         <div className="intro_box">
@@ -19,7 +19,7 @@ const Biography = ({ active }) => {
         <div className="description">
           <p>
             <span>
-              I build open <span className="highlight">front-end</span> and <span className="highlight">backend</span> libraries
+              I build open-source <span className="highlight">backend-end</span> libraries and <span className="highlight">scalable APIs</span>
             </span>
           </p>
         </div>
@@ -62,7 +62,7 @@ const Biography = ({ active }) => {
         </ul>
       </nav>
       <div className="footer">
-        <img src alt="" />
+        <img src="https://www.linkpicture.com/q/avatar_4.jpg" alt="" />
         <div className="social">
           <a
             href="https://github.com/chiadikaobixo"

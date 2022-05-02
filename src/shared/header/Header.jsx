@@ -9,9 +9,9 @@ const Header = () => {
         <div id="header" >
             <div className="header_wrapper">
                 <div className="logo_container">
-                    <a href="/">
-                        <img src="" alt="Xo logo" />
-                    </a>
+                <Link to="/" style={{textDecoration: "none", fontSize: 30, fontWeight: "bold", color: "white"}}>
+                Chiadikaobi.
+            </Link>
                 </div>
                 <div className="menu_btn_wrapper">
                     <button

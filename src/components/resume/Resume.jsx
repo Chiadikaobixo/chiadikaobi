@@ -3,19 +3,24 @@ import ResumeCard from "../../shared/resumeCard/ResumeCard";
 import { Link } from 'react-router-dom'
 import Button from "../../shared/button/Button";
 import './Resume.css'
+import pdf from '../../static/EKWUNIFE-FIDELIS.pdf'
 
 const Resume = () => {
     const experiences = [
         {
-            company: "Franchise",
-            position: "Software Engineer",
+            company: "Freelance",
+            position: "Software developer",
             started: "september 2021",
             ended: null,
             description:
-                "I am currently building scalabel API with the team at franchise",
+                "I am currently building decentralized web3 application",
             achievements: [
-                "built an ecommerce store for Franchise Clothing",
-                "Managing and maintaining of the company's code"
+                "Built MERN applications for clients",
+                "Worked with team of developers to build web application for fintech startup",
+                "Managing and maintaining of the a company's code",
+                "Code testing and Debugging",
+                "Managed app state with react hooks and context",
+                "Created innovative design with the use of programming language"
             ],
         },
         {
@@ -26,8 +31,9 @@ const Resume = () => {
             description:
                 "I contributed in developing projects for six months while learning new skills",
             achievements: [
-                "Worked with my team members to build Node API",
-                "Managed app state with react hooks",
+                "Evaluated new software products and technologies and recommended changes to enhance existing products and also in building new ones",
+                "Worked with my team members to build scable APIs",
+                "Managing and maintaining of the company's code",
                 "Worked with my teammates to implement app features with MERN",
                 "Built complex layouts and components with React & SASS"
             ],
@@ -48,7 +54,7 @@ const Resume = () => {
                             </small>
                         </a>
                         <a
-                            href=""
+                            href={pdf}
                         >
                             <small>
                                 <i className="fas fa-download"></i> <span>Download </span>
@@ -59,7 +65,7 @@ const Resume = () => {
                 <p>Software Developer</p>
                 <div className="summary">
                     <p>
-                        I bring ideas to Software, i create scalable application with good
+                        I bring ideas to Software, I build open-source libraries and I create scalable applications with good
                         users interaction and experience
                     </p>
                 </div>
@@ -69,8 +75,8 @@ const Resume = () => {
                 </div>
                 <div className="skills">
                     <p>
-                        Javascript [ES6+], MongoDB, Express, React JS, Node js
-                        Typescript, Conext, Redux, Firebase, HTML/CSS/SASS
+                        Javascript [ES6+], MongoDB, Express, React JS, Node js,
+                        Conext, Redux, Firebase, HTML/CSS/SASS
                     </p>
                 </div>
                 <div className="divider">
@@ -92,7 +98,7 @@ const Resume = () => {
                         <article className="description">
                             <p className="nospan">
                                 Links to my works can be found on {" "}
-                                <Link to="/project">localhost:3000/project</Link>
+                                <Link to="/project">Projects</Link>
                             </p>
                         </article>
                     </section>

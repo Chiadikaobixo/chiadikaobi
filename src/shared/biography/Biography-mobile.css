@@ -20,6 +20,10 @@
     flex-direction: column-reverse;
     margin: 0;
   }
+
+  #mobile .base_container .hero .intro_box .avi img{
+    border-radius: 50%;
+  }
   
   #mobile .base_container .hero .intro_box h1 {
     font-size: 26px;
