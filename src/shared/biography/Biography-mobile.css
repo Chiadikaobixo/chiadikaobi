@@ -23,6 +23,7 @@
 
   #mobile .base_container .hero .intro_box .avi img{
     border-radius: 50%;
+    margin-top: 50%;
   }
   
   #mobile .base_container .hero .intro_box h1 {
