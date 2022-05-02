@@ -10,18 +10,20 @@ const Project = () => {
             description:
             "Rest Api for managing (CRUD) your task and also sends an email when a user sign up or logout.",
             github: "https://github.com/Chiadikaobixo/node-task-manager-api",
-            live: "",
+            live: "https://github.com/Chiadikaobixo/node-task-manager-api",
             stack: "MongoDB + Express + Node JS",
-            isOnlyCode: true
+            isPackage: true,
+            isPrivate: true
         },
         {
             title: "E-commerce Api",
             description:
             "Rest Api that performs the basic CRUD operation of an ecommerce store with admin access",
             github: "https://github.com/Chiadikaobixo/Node-Ecommerce-API",
-            live: "",
+            live: "https://github.com/Chiadikaobixo/Node-Ecommerce-API",
             stack: "MongoDB + Express + Node JS",
-            isOnlyCode: true
+            isPackage: true,
+            isPrivate: true
         }
     ]
     const projects = [
@@ -46,9 +48,10 @@ const Project = () => {
             title: "SocialMedia API",
             description: "A social media rest API that performs the basic CRUD operation",
             github: "https://github.com/Chiadikaobixo/socialMedia-api",
-            live: "",
+            live: "https://github.com/Chiadikaobixo/socialMedia-api",
             stack: "MongoDB + Express + Node JS",
-            isOnlyCode: true
+            isPackage: true,
+            isPrivate: true
         }
     ]
 

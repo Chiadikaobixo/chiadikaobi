@@ -8,7 +8,6 @@ const ProjectCard = ({
     github,
     live,
     stack,
-    isOnlyCode,
     isPrivate,
     fullWidth,
     isPackage,
@@ -22,15 +21,6 @@ const ProjectCard = ({
                 <p>{description}</p>
             </div>
             <div className="project_links">
-                {isOnlyCode? (
-                    <small className="hover-effect">
-                        <a href={github} target="_blank" rel="noopener noreferrer">
-                            <i className="fas fa-code-branch"></i>{" "} Code{" "}
-                        </a>
-                    </small>
-                ) :(
-
-
                 <small className="hover-effect">
                     <a href={live} target="_blank" rel="noopener noreferrer">
                         {
@@ -44,22 +34,19 @@ const ProjectCard = ({
                                 </div>
                             )
                         }
-                        {isPrivate ? (
-                            ""
-                        ) : (
-                            <small className="hover-effect">
-                                <a href={github} target="_blank" rel="noopener noreferrer">
-                                    <i className="fas fa-code-branch"></i>{" "} Code{" "}
-                                </a>
-                            </small>
-                        )}
                     </a>
                 </small>
-                
+                {isPrivate ? (
+                    ""
+                ) : (
+                    <small className="hover-effect">
+                        <a href={github} target="_blank" rel="noopener noreferrer">
+                            <i className="fas fa-code-branch"></i>{" "} Code{" "}
+                        </a>
+                    </small>
                 )}
             </div>
         </div>
     </div>
 )
-
 export default ProjectCard
