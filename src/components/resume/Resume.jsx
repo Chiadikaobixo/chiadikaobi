@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import Button from "../../shared/button/Button";
 import './Resume.css'
 import pdf from '../../static/EKWUNIFE-FIDELIS.pdf'
-
 const Resume = () => {
     const experiences = [
         {
