@@ -7,7 +7,7 @@ const Project = () => {
     const featuredProjects = [
         {
             title: "Chiadi Media",
-            description: "A fullstack Social-Media application that CRUD user post, profile, follow and unfollow and realtime chat with fiends",
+            description: "A fullstack Social-Media application that CRUD user post, profile, follow and unfollow and realtime chat with friends",
             github: "https://github.com/Chiadikaobixo/socialMedia",
             live: "https://chiadimedia.vercel.app",
             stack: "MongoDB + Express + React + Node JS + Socket.io + Firebase",
