@@ -6,14 +6,12 @@ import './Project.css'
 const Project = () => {
     const featuredProjects = [
         {
-            title: "Task Manager API",
-            description:
-            "Rest Api for managing (CRUD) your task and also sends an email when a user sign up or logout.",
-            github: "https://github.com/Chiadikaobixo/node-task-manager-api",
-            live: "https://github.com/Chiadikaobixo/node-task-manager-api",
-            stack: "MongoDB + Express + Node JS",
-            isPackage: true,
-            isPrivate: true
+            title: "Chiadi Media",
+            description: "A fullstack Social-Media application that CRUD user post, profile, follow and unfollow and realtime chat with fiends",
+            github: "https://github.com/Chiadikaobixo/socialMedia",
+            live: "https://chiadimedia.vercel.app",
+            stack: "MongoDB + Express + React + Node JS + Socket.io + Firebase",
+            isPrivate: false
         },
         {
             title: "E-commerce Api",
@@ -27,6 +25,16 @@ const Project = () => {
         }
     ]
     const projects = [
+        {
+            title: "Task Manager API",
+            description:
+            "Rest Api for managing (CRUD) your task and also sends an email when a user sign up or logout.",
+            github: "https://github.com/Chiadikaobixo/node-task-manager-api",
+            live: "https://github.com/Chiadikaobixo/node-task-manager-api",
+            stack: "MongoDB + Express + Node JS",
+            isPackage: true,
+            isPrivate: true
+        },
         {
             title: "Weather Application",
             description:
