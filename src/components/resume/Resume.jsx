@@ -7,12 +7,12 @@ import pdf from '../../static/EKWUNIFE-FIDELIS.pdf'
 const Resume = () => {
     const experiences = [
         {
-            company: "Freelance",
+            company: "Contracts and Freelancing",
             position: "Software developer",
             started: "september 2021",
             ended: null,
             description:
-                "I am currently building decentralized web3 application",
+                "I am currently working on building decentralized web3 application",
             achievements: [
                 "Built MERN applications for clients",
                 "Worked with team of developers to build web application for fintech startup",
@@ -64,7 +64,7 @@ const Resume = () => {
                 <p>Software Developer</p>
                 <div className="summary">
                     <p>
-                        I bring ideas to Software, I build open-source libraries and I create scalable applications with good
+                        I build open-source libraries and I create scalable applications with good
                         users interaction and experience
                     </p>
                 </div>
@@ -75,7 +75,7 @@ const Resume = () => {
                 <div className="skills">
                     <p>
                         Javascript [ES6+], MongoDB, Express, React JS, Node js,
-                        Conext, Redux, Firebase, HTML/CSS/SASS
+                        MySQL, Rest API, Git, Firebase, Bootstrap, HTML/CSS/SASS
                     </p>
                 </div>
                 <div className="divider">
