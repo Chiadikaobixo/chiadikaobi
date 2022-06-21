@@ -76,6 +76,10 @@
     line-height: 2;
 }
 
+.resume_container .highlight {
+    color: white;
+}
+
 .resume_container .exp_container .experience .title {
     margin: 0;
     font-size: var(--semi-font);

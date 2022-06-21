@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import Button from "../../shared/button/Button";
 import './Resume.css'
 import pdf from '../../static/EKWUNIFE-FIDELIS.pdf'
+
 const Resume = () => {
     const experiences = [
         {
@@ -37,6 +38,25 @@ const Resume = () => {
                 "Built complex layouts and components with React & SASS"
             ],
         },
+    ]
+
+    const skills = [
+        {
+            title: 'Languages',
+            body: ['JavaScript', 'TypeScript']
+        },
+        {
+            title: 'Frameworks',
+            body: ['Nodejs', 'React', 'Express', 'Firebase', 'GraphQL']
+        },
+        {
+            title: 'Database/Storage',
+            body: ['MongoDB', 'SQL', 'Firebase', 'Cloud Storage']
+        },
+        {
+            title: 'Tools',
+            body: ['Git', 'Docker', 'postman']
+        }
     ]
 
     return (
@@ -73,10 +93,14 @@ const Resume = () => {
                     <span></span>
                 </div>
                 <div className="skills">
-                    <p>
-                        Javascript [ES6+], MongoDB, Express, React JS, Node js,
-                        MySQL, Rest API, Git, Firebase, Bootstrap, HTML/CSS/SASS
-                    </p>
+                    {
+                        skills.map((skill, index) => (
+                            <p key={index} id={index}>
+                                <span className="highlight" >{skill.title} </span>
+                                <span>:{" "}{skill.body.map((value) => `${value}. `)}</span>
+                            </p>
+                        ))
+                    }
                 </div>
                 <div className="divider">
                     <p>Experience</p>
@@ -87,6 +111,13 @@ const Resume = () => {
                         experiences.map((experience, index) => (
                             <ResumeCard {...experience} key={index} id={index} />))
                     }
+                </div>
+                <div className="divider">
+                    <p>Proficiency in:</p>
+                    <span></span>
+                </div>
+                <div className="skills">
+                <span><p>■{" "}English</p></span>
                 </div>
                 <div className="divider">
                     <p>Projects</p>
