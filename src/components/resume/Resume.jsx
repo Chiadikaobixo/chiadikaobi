@@ -47,11 +47,15 @@ const Resume = () => {
         },
         {
             title: 'Frameworks',
-            body: ['Nodejs', 'React', 'Express', 'Firebase', 'GraphQL']
+            body: ['Nodejs', 'React', 'Express', 'GraphQL']
         },
         {
             title: 'Database/Storage',
-            body: ['MongoDB', 'SQL', 'Firebase', 'Cloud Storage']
+            body: ['MongoDB', 'MySQL', 'PostgreSQL', 'Firebase', 'Cloud Storage']
+        },
+        {
+            title: 'ORM',
+            body: ['Mongoose', 'Sequelize', 'Prisma']
         },
         {
             title: 'Tools',
