@@ -70,7 +70,7 @@ const Resume = () => {
                     <h1>Fidelis Ekwunife</h1>
                     <div className="buttons">
                         <a
-                            href="https://www.linkedin.com/in/fidelis-chiadikaobi-89592b20b/"
+                            href="https://www.linkedin.com/in/chiadikaobixo/"
                         >
                             <small>
                                 <i className="fab fa-linkedin"></i> <span>Linked In</span>

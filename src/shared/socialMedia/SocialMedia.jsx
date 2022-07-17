@@ -11,7 +11,7 @@ const SocialMedia = () => {
         <i className="fab fa-github"></i>
       </a>
       <a
-        href="https://www.linkedin.com/in/fidelis-chiadikaobi-89592b20b/"
+        href="https://www.linkedin.com/in/chiadikaobixo/"
         target="_blank"
         rel="noopener noreferrer"
       >
