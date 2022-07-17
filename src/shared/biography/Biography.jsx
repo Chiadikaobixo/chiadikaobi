@@ -19,7 +19,9 @@ const Biography = ({ active }) => {
         <div className="description">
           <p>
             <span>
-              I build open-source <span className="highlight">backend-end</span> libraries and <span className="highlight">scalable APIs</span>
+              I build quality products with great user experience, 
+              open-source <span className="highlight">back-end </span>
+              libraries and <span className="highlight">scalable APIs</span>
             </span>
           </p>
         </div>
