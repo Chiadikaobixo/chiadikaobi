@@ -7,7 +7,7 @@ const Project = () => {
     const featuredProjects = [
         {
             title: "Chiadi Media",
-            description: "A fullstack Social-Media application that CRUD user post, profile, follow and unfollow and realtime chat with friends",
+            description: "A fullstack Social-Media application that CRUD user post, profile, follow and unfollow and realtime chat with friends using socket.io",
             github: "https://github.com/Chiadikaobixo/socialMedia",
             live: "https://chiadimedia.vercel.app",
             stack: "MongoDB + Express + React + Node JS + Socket.io + Firebase",
@@ -26,9 +26,19 @@ const Project = () => {
     ]
     const projects = [
         {
+            title: "File Manager API",
+            description:
+            "File-manager that stores files using amazon s3 SDK in a postgresQL database using Primsa ORM",
+            github: "https://github.com/Chiadikaobixo/file-manager-api",
+            live: "https://github.com/Chiadikaobixo/file-manager-api",
+            stack: "Typescript + Express + Node JS + PostgresQL + Docker",
+            isPackage: true,
+            isPrivate: true
+        },
+        {
             title: "Task Manager API",
             description:
-            "Rest Api for managing (CRUD) your task and also sends an email when a user sign up or logout.",
+            "Rest Api for managing (CRUD) task in a MongoDB database using Mongoose ORM and also sends an email when a user sign up or logout.",
             github: "https://github.com/Chiadikaobixo/node-task-manager-api",
             live: "https://github.com/Chiadikaobixo/node-task-manager-api",
             stack: "MongoDB + Express + Node JS",
